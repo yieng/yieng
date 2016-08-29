@@ -1,3 +1,10 @@
+## This piece of code came about when I was doing research on how to create
+## a web crawler for my computer science project. I found a website with
+## many articles and I wanted to read them all, but I didn't want to download
+## the articles manually, so I created the following program to extract all
+## the article contents from the links.
+
+
 import html.parser
 import urllib.request
 
