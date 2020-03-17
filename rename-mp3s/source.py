@@ -31,7 +31,7 @@ n = 0
 pairs = pairs[3::] # discount the folders and hidden files; change "3"
 
 m = 123 # 123 was the number of mp3s in my file
-prev = 130
+prev = 130 # I have 130 pre-numbered mp3 files stashed away somewhere else...
 oldname = [pairs[i][1] for i in range(0,m)]
 newname = [str(i+prev)+' '+pairs[i][1] for i in range(0,m)]
 
